@@ -50,6 +50,7 @@ RUN apk --no-cache --no-progress upgrade && \
     echo '   # Time Machine' >>$file && \
     echo '   fruit:delete_empty_adfiles = yes' >>$file && \
     echo '   fruit:time machine = yes' >>$file && \
+    echo '   fruit:aapl = yes' >>$file && \
     echo '   fruit:veto_appledouble = no' >>$file && \
     echo '   fruit:wipe_intentionally_left_blank_rfork = yes' >>$file && \
     echo '' >>$file && \
