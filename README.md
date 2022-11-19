@@ -1,5 +1,12 @@
 [![logo](https://raw.githubusercontent.com/dperson/samba/master/logo.jpg)](https://www.samba.org)
 
+# Fork Notes
+
+This repository is a fork of https://github.com/dperson/samba containing a few updates until they are merged upstream. Most notably a newer version of samba which fixes compatibility with MacOS 13 and greater.
+
+Updated docker images are available at `ghcr.io/n1mmy/samba`.
+
+
 # Samba
 
 Samba docker container
